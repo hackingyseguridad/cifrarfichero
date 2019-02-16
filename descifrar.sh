@@ -1,12 +1,7 @@
 #!/bin/bash
 cat << "INFO"
-   _____ _  __                
-  / ____(_)/ _|               
- | |     _| |_ _ __ __ _ _ __ 
- | |    | |  _| '__/ _` | '__|
- | |____| | | | | | (_| | |   
-  \_____|_|_| |_|  \__,_|_|   V.1.0 
-   http://www.hackingyseguridad.com
+DESCIFRAR V.1.0 
+http://www.hackingyseguridad.com
 INFO
 if [ -z "$1" ]; then
         echo
