@@ -19,4 +19,4 @@ echo
 echo "Cifrado del fichero : " $1
 echo
 
-openssl aes-256-cbc -a -salt -in $1 -out secreto.txt.enc
+openssl aes-256-cbc -a -salt -in $1 -out $1.enc
