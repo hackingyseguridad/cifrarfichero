@@ -11,7 +11,7 @@ cat << "INFO"
 INFO
 if [ -z "$1" ]; then
         echo
-        echo "Cifrar fichero "
+        echo "Cifrar fichero"
         echo "Uso: $0 <fichero>"
         exit 0
 fi
